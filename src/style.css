@@ -598,6 +598,23 @@ a {
   text-shadow: 0 0 10px rgba(14, 165, 233, 0.4);
 }
 
+/* Professional Affiliations */
+.affiliations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.affiliation-item {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.affiliation-item p {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
 /* Footer */
 footer {
   text-align: center;
