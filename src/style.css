@@ -92,7 +92,7 @@ a {
 .nav-menu {
   list-style: none;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .nav-link {
@@ -260,6 +260,38 @@ a {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Experience Section */
+.experience-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.exp-header h3 {
+  font-size: 1.3rem;
+  color: var(--accent-primary);
+}
+
+.exp-date {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.exp-company {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
 }
 
 /* Education Timeline */
