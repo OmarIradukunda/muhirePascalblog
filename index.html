@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhire Pascal | Mechanical & Energy Engineering</title>
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Import Outfit and Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/svg+xml" href="/src/assets/vite.svg" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">MP.</a>
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#languages" class="nav-link">Languages</a></li>
+          <li><a href="#blog" class="nav-link">Blog</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero section reveal">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            Muhire Pascal
+          </h1>
+          <p class="hero-subtitle">Mechanical Engineer & Energy Expert</p>
+          <p class="hero-nationality">Based in Rwanda 🇷🇼</p>
+          <div class="hero-cta">
+            <a href="#services" class="btn btn-primary">Discover My Journey</a>
+            <a href="#blog" class="btn btn-secondary">Read My Blog</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="hero-image-backdrop"></div>
+          <img src="/profile.jpg" alt="Muhire Pascal" class="hero-image" id="profile-img" />
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services section reveal">
+        <h2 class="section-title">My Services</h2>
+        <div class="services-grid">
+          <div class="service-card glass-card">
+            <img src="/src/assets/energy.png" alt="Energy Consulting" class="service-img" />
+            <div class="service-icon"><i data-lucide="zap"></i></div>
+            <h3>Energy Consulting</h3>
+            <p>Comprehensive thermodynamic and energetic analysis for modern systems, leveraging pan-African insights.</p>
+          </div>
+          <div class="service-card glass-card">
+            <img src="/src/assets/mechanical.png" alt="Mechanical Design" class="service-img" />
+            <div class="service-icon"><i data-lucide="settings"></i></div>
+            <h3>Mechanical Design</h3>
+            <p>Expert CAD, drafting, and core mechanical principles application for robust engineering solutions.</p>
+          </div>
+          <div class="service-card glass-card">
+            <img src="/src/assets/renewable.png" alt="Renewable Technologies" class="service-img" />
+            <div class="service-icon"><i data-lucide="leaf"></i></div>
+            <h3>Renewable Technologies</h3>
+            <p>Integration of solar, wind, and cutting-edge renewable systems in traditional energy infrastructures.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="education section reveal">
+        <h2 class="section-title">Academic Journey</h2>
+        <div class="timeline">
+          <!-- Master's Degree -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <h3>Master's Degree in Energy</h3>
+              <span class="timeline-institute">Tlemcen University, Algeria</span>
+              <p>Specialization under PAUES (Pan African University Institute of Water and Energy Sciences). Focused on advanced energy solutions, renewables, and mechanical integration.</p>
+            </div>
+          </div>
+          <!-- Bachelor's Degree -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <h3>Bachelor's Degree in Mechanical Engineering</h3>
+              <span class="timeline-institute">College of Science and Technology (UR), Rwanda</span>
+              <p>Studied core principles of mechanical engineering, design, and thermodynamics.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Languages Section -->
+      <section id="languages" class="languages section reveal">
+        <h2 class="section-title">Languages</h2>
+        <div class="skills-grid">
+          <div class="skill-card glass-card">
+            <h4>Kinyarwanda</h4>
+            <div class="skill-level">Native</div>
+            <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+          </div>
+          <div class="skill-card glass-card">
+            <h4>French</h4>
+            <div class="skill-level">Professional</div>
+            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-card glass-card">
+            <h4>English</h4>
+            <div class="skill-level">Medium / Professional</div>
+            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section id="blog" class="blog section reveal">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="blog-grid">
+          <article class="blog-card glass-card">
+            <img src="/src/assets/blog_energy.png" alt="Future of Energy" class="blog-img" />
+            <div class="blog-info">
+              <span class="blog-date">April 09, 2026</span>
+              <h3>The Future of Energy in Africa</h3>
+              <p>Exploring renewable possibilities and structural advancements in the pan-African energy sector...</p>
+              <a href="#" class="read-more">Read More &rarr;</a>
+            </div>
+          </article>
+          <article class="blog-card glass-card">
+            <img src="/src/assets/blog_mechanical.png" alt="Mechanical Innovations" class="blog-img" />
+            <div class="blog-info">
+              <span class="blog-date">March 15, 2026</span>
+              <h3>Mechanical Engineering Innovations</h3>
+              <p>How modern engineering is transforming classical thermodynamic approaches in current industries...</p>
+              <a href="#" class="read-more">Read More &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section reveal">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-card glass-card">
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon"><i data-lucide="phone"></i></span>
+              <a href="tel:+250787069768">+250 787 069 768</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i data-lucide="mail"></i></span>
+              <a href="mailto:muhirepascal@gmail.com">muhirepascal@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i data-lucide="map-pin"></i></span>
+              <span>Available locally in Rwanda and Remotely</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Muhire Pascal. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      // Automatically generate a placeholder if image fails to load
+      document.getElementById('profile-img').onerror = function() {
+        this.src = 'https://ui-avatars.com/api/?name=Muhire+Pascal&size=400&background=0284c7&color=fff';
+      };
+    </script>
+  </body>
+</html>
